@@ -550,15 +550,24 @@
             ></textarea>
           </div>
 
-          <input
-            type="checkbox"
-            name="user-agree"
-            class="modal-checkbox"
-            value="accept"
-          />
-          <label for="user-agree" class="modal-form-label"
-            >I accept the terms and conditions of the Privacy Policy</label
-          >
+          <div class="modal-field last-modal-field">
+            <input
+              type="checkbox"
+              name="user-agree"
+              class="modal-checkbox visually-hidden"
+              value="accept"
+              id="user-agree"
+            />
+            <label for="user-agree" class="modal-form-checkbox-label"
+              ><span>
+                <svg class="modal-checkbox-icon" width="16" height="16">
+                  <use href="./images/icons.svg#icon-Vector"></use>
+                </svg> </span
+              >I accept the terms and conditions of the&#xa0;<a href="" class=""
+                >Privacy Policy</a
+              ></label
+            >
+          </div>
 
           <button type="submit" class="modal-form-button order-btn">
             Send
