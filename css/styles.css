@@ -717,7 +717,7 @@ ul {
 }
 
 .modal-form-checkbox-label {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   color: #8e8f99;
   font-size: 12px;
