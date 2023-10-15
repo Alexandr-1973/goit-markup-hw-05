@@ -738,6 +738,7 @@ ul {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 /*.modal-checkbox:checked .modal-form-checkbox-privacy {
   background-color: #404bbf;
@@ -747,7 +748,7 @@ ul {
 }*/
 
 .modal-checkbox-label a {
-  display: block;
+  display: inline-flex;
   color: #4d5ae5;
   text-decoration-line: underline;
 }
@@ -783,6 +784,9 @@ ul {
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }*/
 
+.modal-checkbox-input {
+  display: inline-flex;
+}
 .modal-checkbox-input:checked + .modal-checkbox-label span {
   background-color: #404bbf;
   border-color: #404bbf;
@@ -792,7 +796,7 @@ ul {
 
 .modal-checkbox {
   margin-bottom: 24px;
-  /*display: inline-flex;*/
+  display: inline-flex;
 }
 
 .is-open {
